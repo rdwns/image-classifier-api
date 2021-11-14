@@ -4,9 +4,6 @@ ENV PYTHONBUFFERED 1
 
 WORKDIR /app
 
-#Setting up a seperate user for the app, for security
-
-
 RUN apt-get update && \
     apt-get install -y --no-install-recommends gcc
 
