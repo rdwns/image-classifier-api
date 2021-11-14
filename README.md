@@ -21,7 +21,7 @@ In case you want to enable hot-reload for development purposes, add the —reloa
 
 `uvicorn api.main:app --reload`
 
-'FastAPI` exposes two endpoints: `/healthcheck` and `/predict`
+FastAPI exposes two endpoints: `/healthcheck` and `/predict`
 
 You can either test out the endpoints using Postman or using the built-in documentation explorer which can be accessed by visiting **[`http://127.0.0.1:8000/docs`](http://127.0.0.1:8000/docs)** from your browser.
 
