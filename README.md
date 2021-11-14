@@ -39,6 +39,6 @@ The API can also run as a Docker container. To build a docker image for the proj
 
 After the image is successfully built, run the following commands to run the container.
 
-`docker run -p 8080:8800 cifar10-classifier-api`
+`docker run -p 8080:8080 cifar10-classifier-api`
 
 You can then access visit [http://0.0.0.0:8080/docs](http://0.0.0.0:8080/docs) from your browser.  From there you can upload an image through `/predict` endpoint and the response will be shown on the page itself.
